@@ -3,4 +3,9 @@ Modified this HTML5 API exercise from sitepoint's "JavaScript Novice to Ninja"; 
 26-Jan-18
 These files are placed in a static AWS S3 bucket and serve from a URI domain. 
 The code runs and in debug mode, the web worker is downloaded and executed.  
-In the worker, the event.data is calculated, returned and assigned to the 'output' ID in the <div> element in the HTML file; 
+In the worker, event.data is calculated, returned and rendered to the 'output' ID element of the HTML file;
+
+NOTE:  in addition to HTML5 API web worker this code also uses the localStorage API.  In Chrome, cross-site-scripting has protocol requirements that affect code execution (yeah duh) however, some extensions and privacy settings will affect access to localStorage; I found that disabling 3rd party cookies will cause the localStorage Access Denied error.
+
+A resource from Chromium:  
+https://www.chromium.org/for-testers/bug-reporting-guidelines/uncaught-securityerror-failed-to-read-the-localstorage-property-from-window-access-is-denied-for-this-document
