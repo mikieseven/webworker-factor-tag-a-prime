@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>Factorizor</title>
+</head>
+<body>
+ <button id="rainbow" class='small button'>Change Color</button>
+ <form>
+ <label for="number">Enter a Number to Factorize:</label>
+ <input type="number" name="number" min=1 value="290">
+ <button type="submit">Submit</button>
+ </form>
+ 
+ <div id="output" class="small">-d-</div>
+ <div id="num">-number-</div>
+ <div id="dur">-duration-</div>
+ <div id="fresult" class="four-wide small">-factor result-</div>
+
+ <script src="https://s3.amazonaws.com/mikieseven.com/0scripts.js"></script>
+ 
+ <style type="text/css">
+ /* element Height width*/
+.four-wide {
+ height: 100%;
+ width; 30%;
+ }
+ 
+/* ALIGNMENT CLASSES */
+.pull-left { /* pull-left class referred and given attributes */
+float: left !important;
+}
+.pull-right { /* pull-right class referred and given attributes */
+float: right !important;
+}
+
+/* SIZE CLASSES */
+.small { /* small class referred and given sizing attributes */
+font-size: 1em;
+padding: 0.2em;
+width: 50%;
+height: 50%;
+}
+.normal { /* normal class referred and given sizing attributes */
+font-size: 1.5em;
+padding: 0.4em;
+width: 100%;
+height: 100%;
+}
+.large { /* large class referred and given sizing attributes */
+font-size: 2em;
+padding: 0.6em;
+width: 150%;
+height: 150%;
+}
+
+/* ELEMENTS CLASSES */
+.button { /* refers to a button class, given several attributes */
+border: 0.1em solid;
+border-radius: 0.3em;
+height: 2em;
+line-height: 2em;
+margin-top: 5em;
+margin-bottom: 2em;
+}
+.menu li { /* refers to a menu class, given several attributes */
+display: inline;
+padding-right: 1em;
+text-decoration: none;
+}
+.menu {
+margin-bottom: 2em; /* just a margin for better view of the elements */
+}
+.rectangular { /* refers to a rectangular class, given several attributes */
+border: 0.1em solid;
+width: 10em;
+height: 5em;
+line-height: 5em;
+margin-bottom: 2em;
+}
+
+/* COLOR CLASSES */
+.black {rgb(0,0,0)}
+.red, .red li, .red a { /* red class referred and given color attribute */
+color: #e85139;
+}
+.green, .green li, .green a { /* green class referred and given color attribute */
+color: #4ca640;
+}
+.blue, .blue li, .blue a { /* green class referred and given color attribute */
+color: #319cd6;
+}
+.white, .white li, .white a { /* green class referred and given color attribute */
+color: white;
+}
+.bg-red { /* bg-red class referred and given backgrounf color attr */
+background-color: #e85139;
+}
+
+/* TEXT CLASSES */
+.decor1 { /* decor1 class referred and given text attributes */
+text-decoration: underline;
+text-transform: uppercase;
+font-weight: bold;
+}
+.decor2 { /* decor2 class referred and given text attributes */
+text-decoration: overline;
+text-transform: lowercase;
+font-weight: bold;
+}
+.decor3 { /* decor3 class referred and given text attributes */
+text-decoration: line-through;
+text-transform: capitalize;
+font-weight: bold;
+}
+.center { /* center class referred and given attributes */
+position: relative;
+bottom: 0px;
+text-align: center;
+}
+
+ </style>
+</body>
+</html>
