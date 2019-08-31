@@ -9,3 +9,7 @@ NOTE:  in addition to HTML5 API web worker this code also uses the localStorage 
 
 A resource from Chromium:  
 https://www.chromium.org/for-testers/bug-reporting-guidelines/uncaught-securityerror-failed-to-read-the-localstorage-property-from-window-access-is-denied-for-this-document
+
+Jake Archibald Offline Cookbook https://jakearchibald.com/2014/offline-cookbook/
+
+Next Step: Config and document to run on a local server 8080 
